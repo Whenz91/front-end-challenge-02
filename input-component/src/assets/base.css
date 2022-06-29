@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons+Outlined');
+
+:root {
+ --ff-poppins: 'Poppins', sans-serif;
+ --ff-ubuntu: 'Ubuntu Mono', monospace;
+
+ --color-white: #ffffff;
+ --color-gray-1: #333333;
+ --color-gray-2: #4F4F4F;
+ --color-gray-3: #828282;
+ --color-gray-4: #9E9E9E;
+ --color-gray-5: #E0E0E0;
+ --color-gray-6: #F2F2F2;
+ --color-primary-1: #2962FF;
+ --color-danger-1: #D32F2F;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+body {
+  width: 90%;
+  margin: 20px auto;
+  min-height: 100vh;
+  color: var(--color-gary-1);
+  font-family: var(--ff-poppins);
+  font-size: 12px;
+}
+
+strong {
+  font-weight: 700;
+}
+
+footer {
+  margin-top: 98px;
+  color: var(--color-gray-4);
+}
